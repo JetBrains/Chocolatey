@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>resharper-clt.portable</id>
+    <version>8.1.23.523</version>
+    <title>ReSharper Command Line Tools</title>
+    <authors>JetBrains</authors>
+    <owners>JetBrains</owners>
+    <licenseUrl>http://www.jetbrains.com/resharper/buy/command_line_license.html</licenseUrl>
+    <projectUrl>http://www.jetbrains.com/resharper/features/command-line.html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/JetBrains/Chocolatey/master/resharper-clt.portable/resharperlogo.png</iconUrl>
+    <description>ReSharper Command Line Tools is a set of free standalone tools that help you integrate automatic code quality analysis into your CI, version control or any other server. The Command Line Tools package includes two tools: InspectCode, which executes hundreds of ReSharper code inspections and dupFinder, which detects duplicated code.</description>
+    <tags>resharper jetbrains developer tool ci continuous integration code quality</tags>
+  </metadata>
+  <files>
+    <file src="chocolateyInstall.ps1" target="tools" />
+    <file src="JetBrains.ReSharper.ExternalProcessStorage.Process.exe.ignore" target="tools" />
+  </files>
+</package>
