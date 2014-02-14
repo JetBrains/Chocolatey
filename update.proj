@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Generate" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+
+  <PropertyGroup>
+    <RemoteRoot>http://www.jetbrains.com/updates</RemoteRoot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <LocalUpdate Include="updates.xml" />
+  </ItemGroup>
+  
+  <Target Name="Update">
+    <!--<DownloadFile Address="$(RemoteRoot)/updates.xml" FileName="updates.xml" />
+    <DownloadFile Address="$(RemoteRoot)/updates.dtd" FileName="updates.dtd" />-->
+  </Target>
+
+  <Target Name="Generate" DependsOnTargets="Update">
+     <XslTransformation XmlInputPaths="@(LocalUpdate)" OutputPaths="packages.xml" XslInputPath="transformUpdates.xslt" >
+     </XslTransformation>
+  </Target>
+
+  <UsingTask TaskName="DownloadFile" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll">
+    <ParameterGroup>
+      <Address ParameterType="System.String" Required="true"/>
+      <FileName ParameterType="System.String" Required="true" />
+    </ParameterGroup>
+    <Task>
+      <Reference Include="System" />
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+            new System.Net.WebClient().DownloadFile(Address, FileName);
+        ]]>
+      </Code>
+    </Task>
+  </UsingTask>
+
+</Project>

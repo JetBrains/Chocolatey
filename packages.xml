@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<packages>
+  <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+      <id>IDEA13</id>
+      <version>13.0.2</version>
+      <title>IntelliJ IDEA 13</title>
+      <authors>JetBrains</authors>
+      <owners>JetBrains</owners>
+      <projectUrl>http://www.jetbrains.com/idea/download</projectUrl>
+      <iconUrl>https://github.com/JetBrains/Chocolatey/raw/master/dotPeek.portable/dotPeek.png</iconUrl>
+      <licenseUrl>http://www.jetbrains.com/decompiler/download/license.html</licenseUrl>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>dotPeek is a free .NET decompiler and assembly browser from JetBrains. The main idea behind dotPeek is to make high-quality decompiling coupled with powerful ReSharper-like navigation and search features available to everyone in the .NET community, free of charge.</description>
+      <summary>dotPeek is a free-of-charge .NET decompiler and assembly browser from JetBrains, the makers of ReSharper and more developer productivity tools.</summary>
+      <tags>.net decompiler</tags>
+      <releaseNotes>IntelliJ IDEA 13.0.2 is available.</releaseNotes>
+    </metadata>
+  </package>
+  <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+      <id>WI7</id>
+      <version>7.1.2</version>
+      <title>PhpStorm 7</title>
+      <authors>JetBrains</authors>
+      <owners>JetBrains</owners>
+      <projectUrl>http://www.jetbrains.com/phpstorm/download/</projectUrl>
+      <iconUrl>https://github.com/JetBrains/Chocolatey/raw/master/dotPeek.portable/dotPeek.png</iconUrl>
+      <licenseUrl>http://www.jetbrains.com/decompiler/download/license.html</licenseUrl>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>dotPeek is a free .NET decompiler and assembly browser from JetBrains. The main idea behind dotPeek is to make high-quality decompiling coupled with powerful ReSharper-like navigation and search features available to everyone in the .NET community, free of charge.</description>
+      <summary>dotPeek is a free-of-charge .NET decompiler and assembly browser from JetBrains, the makers of ReSharper and more developer productivity tools.</summary>
+      <tags>.net decompiler</tags>
+      <releaseNotes>&lt;b&gt;PhpStorm 7.1.2&lt;/b&gt; Release is available!</releaseNotes>
+    </metadata>
+  </package>
+  <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+      <id>WS7</id>
+      <version>7.0.3</version>
+      <title>WebStorm 7</title>
+      <authors>JetBrains</authors>
+      <owners>JetBrains</owners>
+      <projectUrl>http://www.jetbrains.com/webstorm/download/</projectUrl>
+      <iconUrl>https://github.com/JetBrains/Chocolatey/raw/master/dotPeek.portable/dotPeek.png</iconUrl>
+      <licenseUrl>http://www.jetbrains.com/decompiler/download/license.html</licenseUrl>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>dotPeek is a free .NET decompiler and assembly browser from JetBrains. The main idea behind dotPeek is to make high-quality decompiling coupled with powerful ReSharper-like navigation and search features available to everyone in the .NET community, free of charge.</description>
+      <summary>dotPeek is a free-of-charge .NET decompiler and assembly browser from JetBrains, the makers of ReSharper and more developer productivity tools.</summary>
+      <tags>.net decompiler</tags>
+      <releaseNotes>WebStorm 7.0.3 is available.</releaseNotes>
+    </metadata>
+  </package>
+  <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+      <id>appcode_25</id>
+      <version>2.5.4</version>
+      <title>AppCode 2.5</title>
+      <authors>JetBrains</authors>
+      <owners>JetBrains</owners>
+      <projectUrl>http://blog.jetbrains.com/objc/2013/12/appcode-2-5-4-bug-fix-update-is-available/</projectUrl>
+      <iconUrl>https://github.com/JetBrains/Chocolatey/raw/master/dotPeek.portable/dotPeek.png</iconUrl>
+      <licenseUrl>http://www.jetbrains.com/decompiler/download/license.html</licenseUrl>
+      <requireLicenseAcceptance>false</requireLicenseAcceptance>
+      <description>dotPeek is a free .NET decompiler and assembly browser from JetBrains. The main idea behind dotPeek is to make high-quality decompiling coupled with powerful ReSharper-like navigation and search features available to everyone in the .NET community, free of charge.</description>
+      <summary>dotPeek is a free-of-charge .NET decompiler and assembly browser from JetBrains, the makers of ReSharper and more developer productivity tools.</summary>
+      <tags>.net decompiler</tags>
+      <releaseNotes>New &lt;b&gt;AppCode 2.5.4&lt;/b&gt; update is available</releaseNotes>
+    </metadata>
+  </package>
+</packages>

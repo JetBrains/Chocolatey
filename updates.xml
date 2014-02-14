@@ -1,0 +1,598 @@
+<products>
+  <product name="IntelliJ IDEA">
+    <code>IU</code>
+    <code>IC</code>
+
+    <channel id="idea90" name="IntelliJ IDEA 9 updates" status="release"
+             url="http://www.jetbrains.com/idea/whatsnew"
+             majorVersion="9">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA10EAP" name="IntelliJ IDEA X EAP" status="eap"
+             url="http://www.jetbrains.com/idea/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="10">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA10" name="IntelliJ IDEA 10" status="release"
+             url="http://www.jetbrains.com/idea/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="10">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA11" name="IntelliJ IDEA 11" status="release"
+             url="http://www.jetbrains.com/idea/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="11">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA11EAP" name="IntelliJ IDEA 11 EAP" status="eap"
+             url="http://confluence.jetbrains.net/display/IDEADEV/IDEA+11+EAP"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="11">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA11dot1EAP" name="IntelliJ IDEA 11.1 EAP" status="eap"
+             url="http://confluence.jetbrains.net/display/IDEADEV/IDEA+11.1+EAP"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="11">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="ledaEAP" name="IntelliJ IDEA Leda EAP" status="eap"
+             url="http://confluence.jetbrains.net/display/IDEADEV/IDEA+12+EAP"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="12">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA_12dot1_EAP" name="IntelliJ IDEA 12.1 EAP" status="eap"
+             url="http://confluence.jetbrains.net/display/IDEADEV/IDEA+12.1+EAP"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="12">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA12" name="IntelliJ IDEA 12" status="release"
+             url="http://www.jetbrains.com/idea/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="12">
+      <build number="133.193" version="13">
+        <message>IntelliJ IDEA 13 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="What's New" url="http://www.jetbrains.com/idea/whatsnew/index.html"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA_13_EAP" name="IntelliJ IDEA 13 EAP" status="eap"
+             url="http://confluence.jetbrains.com/display/IDEADEV/IDEA+13+EAP"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="13">
+      <build number="133.818" version="13.0.3 EAP">
+        <message>IntelliJ IDEA 13.0.3 EAP build 133.818 is available.</message>
+        <button name="Download" url="http://confluence.jetbrains.com/display/IDEADEV/IDEA+13+EAP" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/IDEADEV/IntelliJ+IDEA+13+133.818+Release+Notes"/>
+        <patch from="133.696" size="2"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA_13_1_EAP" name="IntelliJ IDEA 13.1 EAP" status="eap"
+             url="http://confluence.jetbrains.com/display/IDEADEV/IDEA+13.1+EAP"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="13">
+      <build number="134.1007" version="13.1 EAP">
+        <message>IntelliJ IDEA 13.1 EAP build 134.1007 is available.</message>
+        <button name="Download" url="http://confluence.jetbrains.com/display/IDEADEV/IDEA+13.1+EAP" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/IDEADEV/IDEA+13.1+EAP"/>
+      </build>
+    </channel>
+
+    <channel id="IDEA13" name="IntelliJ IDEA 13" status="release"
+             url="http://www.jetbrains.com/idea/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="13">
+      <build number="133.696" version="13.0.2">
+        <message>IntelliJ IDEA 13.0.2 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/idea/download/" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/IDEADEV/IntelliJ+IDEA+13.0.2+Release+Notes"/>
+        <patch from="133.331" size="27" />
+        <patch from="133.330" size="15" />
+        <patch from="133.193" size="17" />
+      </build>
+    </channel>
+
+  </product>
+
+  <product name="RubyMine">
+    <code>RM</code>
+    <channel id="rm20" name="RubyMine 2" status="Release"
+             url="http://www.jetbrains.com/ruby/download"
+             feedback="http://youtrack.jetbrains.net">
+      <build number="117.230" version="4.0.3">
+        <message>RubyMine 4.0.3 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download" download="true"/>
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/ruby/2012/04/rubymine-4-0-3-update-is-available/"/>
+        <patch from="113.29" size="17" exclusions="mac"/>
+        <patch from="113.31" size="17" exclusions="mac"/>
+        <patch from="117.159" size="1" exclusions="mac"/>
+      </build>
+    </channel>
+    <channel id="rm30" name="RubyMine 3.0" status="Release"
+             url="http://www.jetbrains.com/ruby/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="3">
+      <build number="117.230" version="4.0.3">
+        <message>RubyMine 4.0.3 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download" download="true"/>
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/ruby/2012/04/rubymine-4-0-3-update-is-available/"/>
+        <patch from="113.29" size="17" exclusions="mac"/>
+        <patch from="113.31" size="17" exclusions="mac"/>
+        <patch from="117.159" size="1" exclusions="mac"/>
+      </build>
+    </channel>
+    <channel id="rm32" name="RubyMine 3.2" status="Release"
+             url="http://www.jetbrains.com/ruby/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="3">
+      <build number="117.230" version="4.0.3">
+        <message>RubyMine 4.0.3 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download" download="true"/>
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/ruby/2012/04/rubymine-4-0-3-update-is-available/"/>
+        <patch from="113.29" size="17" exclusions="mac"/>
+        <patch from="113.31" size="17" exclusions="mac"/>
+        <patch from="117.159" size="1" exclusions="mac"/>
+      </build>
+    </channel>
+    <channel id="rm4" name="RubyMine 4.0" status="Release"
+             url="http://www.jetbrains.com/ruby/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="4">
+      <build number="117.230" version="4.0.3">
+        <message>RubyMine 4.0.3 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download" download="true"/>
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/ruby/2012/04/rubymine-4-0-3-update-is-available/"/>
+        <patch from="113.29" size="17" exclusions="mac"/>
+        <patch from="113.31" size="17" exclusions="mac"/>
+        <patch from="117.159" size="1" exclusions="mac"/>
+      </build>
+    </channel>
+    <channel id="rm45eap" name="RubyMine 4.5" status="EAP"
+             url="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+EAP"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="4">
+      <build number="119.71" version="4.5.4">
+        <message>RubyMine 4.5.4 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download/" download="true"/>
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/ruby/2012/09/rubymine-4-5-4/"/>
+        <patch from="119.63" size="1" exclusions="mac"/>
+      </build>
+    </channel>
+    <channel id="rm45" name="RubyMine 4.5" status="Release"
+             url="http://www.jetbrains.com/ruby/"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="4">
+      <build number="119.71" version="4.5.4">
+        <message>RubyMine 4.5.4 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download/" download="true"/>
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/ruby/2012/09/rubymine-4-5-4/"/>
+        <patch from="119.63" size="1" exclusions="mac"/>
+      </build>
+    </channel>
+
+    <channel id="rm50eap" name="RubyMine 5.0" status="EAP"
+             url="http://www.jetbrains.com/ruby"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="5">
+      <build number="125.94" version="5.0.2">
+        <message>RubyMine 5.0.2 is available</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download/" download="true"/>
+        <button name="Release Notes" url="http://blog.jetbrains.com/ruby/2013/03/welcome-spring-with-rubymine-5-0-2/"/>
+        <patch from="125.65" size="1" />
+      </build>
+    </channel>
+    <channel id="rm50" name="RubyMine 5.0" status="Release"
+             url="http://www.jetbrains.com/ruby"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="5">
+      <build number="125.94" version="5.0.2">
+        <message>RubyMine 5.0.2 is available</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download/" download="true"/>
+        <button name="Release Notes" url="http://blog.jetbrains.com/ruby/2013/03/welcome-spring-with-rubymine-5-0-2/"/>
+        <patch from="125.65" size="1"/>
+      </build>
+    </channel>
+    <channel id="rm54EAP" name="RubyMine 5.4" status="Beta"
+             url="http://www.jetbrains.com/ruby"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="5">
+      <build number="129.861" version="5.4.3">
+        <message>RubyMine 5.4.3 is available</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download/" download="true"/>
+        <button name="Release Notes" url="http://blog.jetbrains.com/ruby/2013/07/rubymine-5-4-3-rubymotion-is-all-around/"/>
+        <patch from="129.512" size="3"/>
+      </build>
+    </channel>
+    <channel id="rm54" name="RubyMine 5.4" status="Release"
+             url="http://www.jetbrains.com/ruby"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="5">
+      <build number="129.861" version="5.4.3">
+        <message>RubyMine 5.4.3 is available</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download/" download="true"/>
+        <button name="Release Notes" url="http://blog.jetbrains.com/ruby/2013/07/rubymine-5-4-3-rubymotion-is-all-around/"/>
+        <patch from="129.512" size="3"/>
+      </build>
+    </channel>
+
+    <channel id="rm60EAP" name="RubyMine 6.0 EAP" status="EAP"
+             url="http://www.jetbrains.com/ruby"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="6">
+      <build number="133.84" version="6.0">
+        <message>RubyMine 6.0.3 is available</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download/" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+6.0.1+%28build+133.211%29+Release+Notes"/>
+        <patch from="133.100" size="2"/>
+      </build>
+    </channel>
+
+    <channel id="rm60" name="RubyMine 6.0" status="Release"
+             url="http://www.jetbrains.com/ruby"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="6">
+      <build number="133.632" version="6.0.2">
+        <message>RubyMine 6.0.3 is available</message>
+        <button name="Download" url="http://www.jetbrains.com/ruby/download/" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/RUBYDEV/RubyMine+6.0.3+%28build+133.632%29+Release+Notes"/>
+        <patch from="133.408" size="2"/>
+      </build>
+    </channel>
+
+  </product>
+
+  <product name="PyCharm">
+    <code>PY</code>
+    <code>PC</code>
+
+    <channel id="pycharm" name="PyCharm 1.0" status="EAP"
+             url="http://www.jetbrains.com/pycharm/whatsnew"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="1">
+      <build number="107.576" version="1.5.4">
+        <message>PyCharm 1.5.4 is available.</message>
+      </build>
+    </channel>
+
+    <channel id="pycharm1EAP" name="PyCharm 1.5" status="EAP"
+             url="http://www.jetbrains.com/pycharm/download"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="1">
+      <build number="107.576" version="1.5.4">
+        <message>PyCharm 1.5.4 is available.</message>
+      </build>
+    </channel>
+
+    <channel id="pycharm10" name="PyCharm 1.0" status="Release"
+             url="http://www.jetbrains.com/pycharm/whatsnew"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="1">
+      <build number="107.576" version="1.5.4">
+        <message>PyCharm 1.5.4 is available.</message>
+      </build>
+    </channel>
+
+    <channel id="pycharm2EAP" name="PyCharm 2 EAP" status="EAP"
+             url="http://confluence.jetbrains.net/display/PYH/JetBrains+PyCharm+Preview"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="2">
+      <build number="129.782" version="2.7.3">
+        <message>PyCharm 2.7.3 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/pycharm/download/index.html" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/PYH/PyCharm+2.7.3+Release+Notes"/>
+        <patch from="129.314" size="5"/>
+        <patch from="129.696" size="1"/>
+      </build>
+    </channel>
+
+    <channel id="pycharm2Beta" name="PyCharm 2 EAP" status="Beta"
+             url="http://confluence.jetbrains.net/display/PYH/JetBrains+PyCharm+Preview"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="2">
+      <build number="129.782" version="2.7.3">
+        <message>PyCharm 2.7.3 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/pycharm/download/index.html" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/PYH/PyCharm+2.7.3+Release+Notes"/>
+        <patch from="129.314" size="5"/>
+        <patch from="129.696" size="1"/>
+      </build>
+    </channel>
+
+    <channel id="pycharm2" name="PyCharm 2" status="Release"
+             url="http://www.jetbrains.com/pycharm/whatsnew"
+             feedback="http://youtrack.jetbrains.net"
+             majorVersion="2">
+      <build number="129.782" version="2.7.3">
+        <message>PyCharm 2.7.3 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/pycharm/download/index.html" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/PYH/PyCharm+2.7.3+Release+Notes"/>
+        <patch from="129.314" size="5"/>
+        <patch from="129.696" size="1"/>
+      </build>
+    </channel>
+
+    <channel id="pycharm3EAP" name="PyCharm 3 EAP" status="Beta"
+             url="http://confluence.jetbrains.com/display/PYH/JetBrains+PyCharm+Preview+%28EAP%29"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="3">
+      <build number="133.865" version="3.1.1 RC">
+        <message>PyCharm 3.1.1 RC available.</message>
+        <button name="Download" url="http://confluence.jetbrains.com/display/PYH/JetBrains+PyCharm+Preview+%28EAP%29" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/PYH/PyCharm+133.865+Release+Notes"/>
+        <patch from="133.804" size="1"/>
+      </build>
+    </channel>
+
+    <channel id="pycharm3" name="PyCharm 3" status="Release"
+             url="http://www.jetbrains.com/pycharm/whatsnew"
+             feedback="http://youtrack.jetbrains.com"
+             majorVersion="3">
+      <build number="133.804" version="3.1">
+        <message>PyCharm 3.1 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/pycharm/download/index.html" download="true"/>
+        <patch from="133.738" size="2"/>
+        <patch from="133.759" size="1"/>
+        <!--<patch from="131.618" size="25"/>-->
+      </build>
+    </channel>
+  </product>
+
+  <product name="PhpStorm">
+    <code>PS</code>
+    <channel id="WI1" name="PhpStorm 1" status="release"
+             url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="1">
+      <build number="95.503" version="1.0.2">
+        <button name="Download" url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696" download="true"/>
+      </build>
+    </channel>
+
+    <channel id="WI2" name="PhpStorm 2" status="release"
+             url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="2">
+      <build number="107.658" version="2.1.5">
+        <button name="Download" url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696" download="true"/>
+      </build>
+    </channel>
+
+    <channel id="WI3" name="PhpStorm 3" status="release"
+             url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="3">
+      <build number="117.257" version="4.0">
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/webide/2012/04/phpstorm-4-0-do-it-right-from-the-first-time/"/>
+        <button name="Download" url="http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program" download="true"/>
+      </build>
+    </channel>
+
+
+    <channel id="WI4" name="PhpStorm 4" status="release"
+             url="http://www.jetbrains.com/phpstorm/download/"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="4">
+      <build number="117.746" version="4.0.3">
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/webide/2012/07/phpstorm-webstorm-4-0-3/"/>
+      </build>
+    </channel>
+
+    <channel id="WI5" name="PhpStorm 5" status="release"
+             url="http://www.jetbrains.com/phpstorm/download/"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="5">
+      <build number="127.100" version="6">
+        <message><![CDATA[<b>PhpStorm 6.0</b> is available!]]></message>
+        <button name="Release Notes / Download"
+                url="http://blog.jetbrains.com/webide/2013/03/phpstorm-6-0-released-composer-code-rearranger-new-refactorings-rest-client-darcula-more/"/>
+      </build>
+    </channel>
+
+    <channel id="WI6" name="PhpStorm 6" status="release"
+             url="http://www.jetbrains.com/phpstorm/download/"
+             feedback="http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program"
+             majorVersion="6">
+      <build number="133.803" version="7.1.2">
+        <message><![CDATA[<b>PhpStorm 7.1.2</b> Release is available!]]></message>
+        <button name="Release Notes / Download"
+                url="http://blog.jetbrains.com/phpstorm/2014/02/phpstorm-7-1-2-bug-fix-update-is-available/"/>
+      </build>
+    </channel>
+
+    <channel id="WI7" name="PhpStorm 7" status="release"
+             url="http://www.jetbrains.com/phpstorm/download/"
+             feedback="http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program"
+             majorVersion="7">
+      <build number="133.803" version="7.1.2">
+        <message><![CDATA[<b>PhpStorm 7.1.2</b> Release is available!]]></message>
+        <button name="Release Notes / Download"
+                url="http://blog.jetbrains.com/phpstorm/2014/02/phpstorm-7-1-2-bug-fix-update-is-available/"/>
+        <patch from="133.679" size="1"/>
+      </build>
+    </channel>
+
+    <channel id="EAP" name="PhpStorm 7" status="EAP"
+             url="http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program"
+             feedback="http://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program"
+             majorVersion="7">
+      <build number="133.803" version="7.1.2">
+        <button name="Release Notes / Download"
+                url="http://blog.jetbrains.com/phpstorm/2014/02/phpstorm-7-1-2-bug-fix-update-is-available/"/>
+        <message><![CDATA[<b>PhpStorm 7.1.2</b> is available!]]></message>
+        <!--<patch from="133.564" size="1"/>-->
+      </build>
+    </channel>
+  </product>
+
+  <product name="WebStorm">
+    <code>WS</code>
+    <channel id="WI1" name="WebStorm 1" status="release"
+             url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="1">
+      <build number="95.503" version="1.0.2">
+        <button name="Download" url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696" download="true"/>
+      </build>
+    </channel>
+
+    <channel id="WI2" name="WebStorm 2" status="release"
+             url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="2">
+      <build number="107.658" version="2.1.5">
+        <button name="Download" url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696" download="true"/>
+      </build>
+    </channel>
+
+    <channel id="WI3" name="WebStorm 3" status="release"
+             url="http://www.jetbrains.com/webstorm/download/"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="3">
+      <!--<build number="111.344" version="3.0.3">-->
+        <!--<button name="Download" url="http://confluence.jetbrains.net/pages/viewpage.action?pageId=41487696" download="true"/>-->
+      <!--</build>-->
+      <build number="117.257" version="4.0.1">
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/webide/2012/04/webstorm-4-0-in-harmony-with-ecmascript/"/>
+        <button name="Download" url="http://www.jetbrains.com/webstorm/download/" download="true"/>
+      </build>
+    </channel>
+
+    <channel id="WI4" name="WebStorm 4.0.3" status="release"
+             url="http://www.jetbrains.com/webstorm/download/"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="4">
+      <build number="117.746" version="4.0.3">
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/webide/2012/07/phpstorm-webstorm-4-0-3/"/>
+      </build>
+    </channel>
+
+    <channel id="WI5" name="WebStorm 5" status="release"
+             url="http://www.jetbrains.com/webstorm/download/"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="5">
+      <build number="121.390" version="5.0.4">
+        <button name="Release Notes"
+                url="http://blog.jetbrains.com/webide/2012/11/phpstorm-webstorm-5-0-4-released/"/>
+      </build>
+    </channel>
+
+    <channel id="WS6" name="WebStorm 6" status="release"
+             url="http://www.jetbrains.com/webstorm/download/"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="6">
+      <build number="129.664" version="6.0.2a">
+        <button name="Download" url="http://www.jetbrains.com/webstorm/download/index.html" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/WI/WebStorm+6.0.2+Release+Notes"/>
+      </build>
+    </channel>
+
+    <channel id="WS7" name="WebStorm 7" status="release"
+             url="http://www.jetbrains.com/webstorm/download/"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="7">
+      <build number="133.434" version="7.0.3">
+        <message>WebStorm 7.0.3 is available.</message>
+        <button name="Download" url="http://www.jetbrains.com/webstorm/download/index.html" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/WI/WebStorm+133.434+Release+Notes"/>
+        <patch from="131.515" size="23" />
+      </build>
+    </channel>
+
+    <channel id="EAP" name="WebStorm 8 EAP" status="EAP"
+             url="http://confluence.jetbrains.net/display/WI/WebStorm+EAP"
+             feedback="http://devnet.jetbrains.net/community/wi/"
+             majorVersion="8">
+      <build number="134.1081" version="8.0">
+        <message>WebStorm 8 EAP is available.</message>
+        <button name="Download" url="http://confluence.jetbrains.com/display/WI/WebStorm+EAP" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/WI/WebStorm+134.1081+Release+Notes"/>
+        <patch from="134.697" size="4"/>
+      </build>
+    </channel>
+  </product>
+
+  <product name="AppCode">
+    <code>OC</code>
+    <channel id="appcode_25" name="AppCode 2.5" status="release" majorVersion="2"
+             url="http://blog.jetbrains.com/objc/2013/12/appcode-2-5-4-bug-fix-update-is-available/"
+             feedback="http://devnet.jetbrains.net/community/objc">
+      <build number="131.661" version="2.5.4">
+        <message><![CDATA[New <b>AppCode 2.5.4</b> update is available]]></message>
+        <button name="Download..." url="http://www.jetbrains.com/objc/download/" download="true"/>
+        <button name="Release Notes" url="http://blog.jetbrains.com/objc/2013/12/appcode-2-5-4-bug-fix-update-is-available/"/>
+        <patch from="131.409" size="8"/>
+        <patch from="131.572" size="3"/>
+        <patch from="131.639" size="1"/>
+      </build>
+    </channel>
+
+<!--
+    <channel id="appcode_eap_25" name="AppCode 2.5 EAP" status="EAP" majorVersion="2"
+             url="http://blog.jetbrains.com/objc/2013/10/appcode-2-5-released/"
+             feedback="http://devnet.jetbrains.net/community/objc">
+      <build number="131.302" version="2.5">
+        <message><![CDATA[New <b>AppCode 2.5</b> is released!]]></message>
+        <button name="Download..." url="http://confluence.jetbrains.com/display/OBJC/AppCode+EAP" download="true"/>
+        <button name="Release Notes" url="http://blog.jetbrains.com/objc/2013/10/appcode-2-5-released/"/>
+      </build>
+    </channel>
+-->
+  </product>
+
+</products>
