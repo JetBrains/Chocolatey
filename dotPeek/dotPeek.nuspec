@@ -5,14 +5,14 @@
         <version>1.1.1.33</version>
         <title>dotPeek</title>
         <authors>JetBrains</authors>
-        <owners>H. Alan Stevens,Matt Wrock</owners>
+        <owners>JetBrains</owners>
         <projectUrl>http://www.jetbrains.com/decompiler/</projectUrl>
         <iconUrl>https://github.com/alanstevens/ChocoPackages/raw/master/dotPeek/dotPeek.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>dotPeek is a new free .NET decompiler from JetBrains, the makers of ReSharper, dotTrace, and dotCover for .NET developers.</description>
         <summary>dotPeek is a new free .NET decompiler from JetBrains, the makers of ReSharper, dotTrace, and dotCover for .NET developers.</summary>
-        <releaseNotes />
-        <copyright />
+        <releaseNotes>Final dotPeek 1.1 release is available.</releaseNotes>
+        <copyright>JetBrains</copyright>
         <tags>.net decompiler</tags>
     </metadata>
   <files>

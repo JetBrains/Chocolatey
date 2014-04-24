@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>dotCover</id>
-    <version>2.6.608.466</version>
+    <id>JetBrains.dotCover</id>
+    <version>2.7.0.662</version>
     <title>dotCover</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
@@ -11,8 +11,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>JetBrains dotCover is a .NET unit test runner and code coverage tool that integrates with Visual Studio.</description>
     <summary>dotCover - .NET Code Coverage Tool</summary>
-    <releaseNotes />
-    <copyright />
+    <releaseNotes>ReSharper 8.2 support, standalone runner and bug fixes</releaseNotes>
+    <copyright>JetBrains</copyright>
     <tags>dotCover codecoverage jetbrains</tags>
   </metadata>
   <files>

@@ -94,8 +94,6 @@
   <xsl:template match="nuspec:releaseNotes">
     <xsl:param name="UpdateInfo" />
     <xsl:element name="releaseNotes" namespace="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-      <xsl:value-of select="$UpdateInfo/InformationUri" />
-      <xsl:text>&#x0a;</xsl:text>
       <xsl:value-of select="$UpdateInfo/Description" />
     </xsl:element>
   </xsl:template>

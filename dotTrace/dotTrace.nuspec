@@ -1,8 +1,8 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotTrace</id>
-    <version>5.5.3.554</version>
+    <version>5.5.4.160</version>
     <title>dotTrace Performance</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
@@ -11,8 +11,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>10-day trial version of JetBrains dotTrace performance profiler</description>
     <summary>10-day trial version of JetBrains dotTrace performance profiler</summary>
-    <releaseNotes />
-    <copyright />
+    <releaseNotes>ReSharper 8.2 support and bug fixes. Please feel free to download the release build now.</releaseNotes>
+    <copyright>JetBrains</copyright>
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />

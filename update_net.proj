@@ -15,9 +15,22 @@
       <Xslt>ReSharper\ReSharper.xslt</Xslt>
     </Data>
   </ItemGroup>
+  
   <Target Name="Build">
-     <XslTransformation XmlInputPaths="@(Data)" OutputPaths="%(RelativeDir)%(Filename).tmp" XslInputPath="%(Xslt)" Parameters="%(Data.Parameters)" />
-    <Move SourceFiles="@(Data->'%(RelativeDir)%(Filename).tmp')" DestinationFiles="@(Data)" />
+    <XslTransformation XmlInputPaths="@(Data)" OutputPaths="%(RelativeDir)%(Filename).tmp" XslInputPath="%(Xslt)" Parameters="%(Data.Parameters)" />
+    
+    <Move SourceFiles="@(Data->'%(RelativeDir)%(Filename).tmp')" DestinationFiles="@(Data)">
+      <Output TaskParameter="MovedFiles" ItemName="NuSpec" />
+    </Move>
+
+    <Exec Command="$(MSBuildThisFileDirectory)nuget.exe pack %(NuSpec.Identity) -OutputDirectory %(NuSpec.RelativeDir)" />
+
+
+    <CreateItem Include="@(NuSpec->'%(RelativeDir)*.nupkg')">
+      <Output TaskParameter="Include" ItemName="NuPkg" />
+    </CreateItem>
+
+    <Exec Command="$(MSBuildThisFileDirectory)nuget.exe push %(NuPkg.Identity) -Source http://chocolatey.org/ " ConsoleToMSBuild="true" IgnoreExitCode="true" />
   </Target>
 
 </Project>

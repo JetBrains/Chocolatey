@@ -1,10 +1,1 @@
-try {
-
-  Install-ChocolateyPackage 'dotTrace' 'msi' '/passive /qn' 'http://download-ln.jetbrains.com/dottrace/dotTraceSetup.5.5.3.554.msi'
-
-} catch {
-
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
-
-}
+Install-ChocolateyPackage 'dotTrace' 'msi' '/q' 'http://download.jetbrains.com/dottrace/dotTraceSetup.5.5.4.160.msi?utm_medium=link&amp;utm_campaign=dottrace&amp;utm_source=autoupdate-dtP-5.5.4'

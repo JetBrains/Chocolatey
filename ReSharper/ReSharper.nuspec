@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>ReSharper</id>
     <version>8.2.0.2160</version>
     <title>ReSharper</title>
     <authors>JetBrains</authors>
-    <owners>Rob Reynolds</owners>
+    <owners>JetBrains</owners>
     <licenseUrl>http://www.jetbrains.com/resharper/buy/index.jsp</licenseUrl>
     <projectUrl>http://www.jetbrains.com/resharper</projectUrl>
     <iconUrl>https://github.com/ferventcoder/chocolateyautomaticpackages/raw/master/resharper/resharperlogo.png</iconUrl>
@@ -15,8 +15,8 @@
     
     During evaluation, Full Edition is activated by default but you can switch to another edition in the License Information dialog box (ReSharper | Help | License Information.)</description>
     <summary>ReSharper - The Most Intelligent Extension for Visual Studio</summary>
-    <releaseNotes />
-    <copyright />
+    <releaseNotes>FREE UPGRADE! Expanded TypeScript support, Quick Documentation fixes and other enhancements.</releaseNotes>
+    <copyright>JetBrains</copyright>
     <tags>resharper jetbrains developer productivity tool vsix admin</tags>
   </metadata>
   <files>
