@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dotCover</id>
+    <version>2.6.608.466</version>
+    <title>dotCover</title>
+    <authors>JetBrains</authors>
+    <owners>JetBrains</owners>
+    <licenseUrl>http://www.jetbrains.com/dotcover/buy/index.jsp</licenseUrl>
+    <projectUrl>http://www.jetbrains.com/dotcover/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>JetBrains dotCover is a .NET unit test runner and code coverage tool that integrates with Visual Studio.</description>
+    <summary>dotCover - .NET Code Coverage Tool</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>dotCover codecoverage jetbrains</tags>
+  </metadata>
+  <files>
+    <file src="chocolateyInstall.ps1" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ReSharper</id>
+    <version>8.2.0.2160</version>
+    <title>ReSharper</title>
+    <authors>JetBrains</authors>
+    <owners>Rob Reynolds</owners>
+    <licenseUrl>http://www.jetbrains.com/resharper/buy/index.jsp</licenseUrl>
+    <projectUrl>http://www.jetbrains.com/resharper</projectUrl>
+    <iconUrl>https://github.com/ferventcoder/chocolateyautomaticpackages/raw/master/resharper/resharperlogo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ReSharper is a developer productivity tool for Microsoft Visual Studio. 
+    ReSharper works with Visual Studio 2005 SP1, 2008 SP1, 2010 or 2012  or later. It is available for download as a single package that includes all three editions. Depending on the license key used, the Full, C# or VB.NET Edition will be activated automatically.
+    
+    During evaluation, Full Edition is activated by default but you can switch to another edition in the License Information dialog box (ReSharper | Help | License Information.)</description>
+    <summary>ReSharper - The Most Intelligent Extension for Visual Studio</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>resharper jetbrains developer productivity tool vsix admin</tags>
+  </metadata>
+  <files>
+    <file src="chocolateyInstall.ps1" target="tools" />
+  </files>
+</package>
