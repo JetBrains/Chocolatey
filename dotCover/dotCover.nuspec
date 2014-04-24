@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>JetBrains.dotCover</id>
+    <id>dotCover</id>
     <version>2.7.0.662</version>
     <title>dotCover</title>
     <authors>JetBrains</authors>

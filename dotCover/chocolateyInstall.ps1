@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'JetBrains.dotCover' 'msi' '/q' 'http://download.jetbrains.com/dotcover/dotCoverSetup.2.7.0.662.msi'
+Install-ChocolateyPackage 'dotCover' 'msi' '/q' 'http://download.jetbrains.com/dotcover/dotCoverSetup.2.7.0.662.msi'
