@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotMemory</id>
-    <version>4.0.52.311-beta2</version>
+    <version>4.0.0.542</version>
     <title>dotMemory</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>dotMemory is a .NET memory profiler that helps you optimize memory usage in your application, find memory leaks, and fight other types of memory issues.</description>
     <summary>Smart and Reliable .NET Memory Profiler</summary>
-    <releaseNotes>● Bug fixes including: DMRY-1892 - problems with getting snapshot DMRY-1903 - dotMemory tries to remove VS extensions during installation DMRY-1461 - Snapshot corruption on workspace or dotMemory closing while the snapshot is being processed</releaseNotes>
+    <releaseNotes />
     <copyright>JetBrains</copyright>
     <tags>dotMemory jetbrains</tags>
   </metadata>

@@ -11,6 +11,9 @@
     <Data Include="dotTrace\dotTrace.nuspec">
       <Xslt>dotTrace\dotTrace.xslt</Xslt>
     </Data>
+    <Data Include="dotMemory\dotMemory.nuspec">
+      <Xslt>dotMemory\dotMemory.xslt</Xslt>
+    </Data>
     <Data Include="ReSharper\ReSharper.nuspec">
       <Xslt>ReSharper\ReSharper.xslt</Xslt>
     </Data>
