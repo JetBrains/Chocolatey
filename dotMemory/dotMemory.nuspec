@@ -11,7 +11,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>dotMemory is a .NET memory profiler that helps you optimize memory usage in your application, find memory leaks, and fight other types of memory issues.</description>
     <summary>Smart and Reliable .NET Memory Profiler</summary>
-    <releaseNotes />
+    <releaseNotes>Try the full version of dotMemory 4 free for 10 days
+</releaseNotes>
     <copyright>JetBrains</copyright>
     <tags>dotMemory jetbrains</tags>
   </metadata>

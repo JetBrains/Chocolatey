@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'dotMemory' 'msi' '/q' 'http://download-cf.jetbrains.com/dotmemory/dotMemorySetup.4.0.0.542.msi'
+Install-ChocolateyPackage 'dotMemory' 'msi' '/q' 'http://download.jetbrains.com/dotmemory/dotMemorySetup.4.0.0.542.msi'

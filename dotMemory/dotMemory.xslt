@@ -7,9 +7,12 @@
   <xsl:import href="..\Common.xslt" />
   <xsl:import href="http://www.jetbrains.com/profiler/updates/updates.dotMemory.xslt" />
 
-  <xsl:variable name="ReleaseMajor" select="0" />
-  <xsl:variable name="ReleaseMinor" select="0" />
-  <xsl:variable name="ReleaseBuild" select="0" />
-  <xsl:variable name="ReleaseRevision" select="0" />
-
+  <xsl:template match="/">
+    <xsl:apply-templates>
+      <xsl:with-param name="ReleaseMajor" select="$ReleaseMajor" />
+      <xsl:with-param name="ReleaseMinor" select="$ReleaseMinor" />
+      <xsl:with-param name="ReleaseBuild" select="$ReleaseBuild - 1" />
+      <xsl:with-param name="ReleaseRevision" select="0" />
+    </xsl:apply-templates>
+  </xsl:template>
 </xsl:stylesheet>
