@@ -1,1 +1,1 @@
-Install-ChocolateyPackage 'dotPeek' 'msi' '/q' 'http://download.jetbrains.com/dotpeek/dotPeekSetup-1.1.1.33.msi'
+Install-ChocolateyPackage 'dotPeek' 'msi' '/q' 'http://download.jetbrains.com/dotpeek/dotPeekSetup-1.2.1.226.msi'

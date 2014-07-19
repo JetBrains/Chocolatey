@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>dotPeek</id>
-        <version>1.1.1.33</version>
+        <version>1.2.1.226</version>
         <title>dotPeek</title>
         <authors>JetBrains</authors>
         <owners>JetBrains</owners>
@@ -11,7 +11,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>dotPeek is a new free .NET decompiler from JetBrains, the makers of ReSharper, dotTrace, and dotCover for .NET developers.</description>
         <summary>dotPeek is a new free .NET decompiler from JetBrains, the makers of ReSharper, dotTrace, and dotCover for .NET developers.</summary>
-        <releaseNotes>Final dotPeek 1.1 release is available.</releaseNotes>
+        <releaseNotes>New version is available: Symbol Server, .pdb files generation, Process Explorer and more.</releaseNotes>
         <copyright>JetBrains</copyright>
         <tags>.net decompiler</tags>
     </metadata>
