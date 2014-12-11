@@ -2,24 +2,27 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>ReSharper</id>
-    <version>8.2.0.2160</version>
+    <version>9.0</version>
     <title>ReSharper</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
-    <licenseUrl>http://www.jetbrains.com/resharper/buy/index.jsp</licenseUrl>
-    <projectUrl>http://www.jetbrains.com/resharper</projectUrl>
+    <licenseUrl>http://www.jetbrains.com/resharper/buy/</licenseUrl>
+    <projectUrl>http://www.jetbrains.com/resharper/</projectUrl>
     <iconUrl>https://github.com/ferventcoder/chocolateyautomaticpackages/raw/master/resharper/resharperlogo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ReSharper is a developer productivity tool for Microsoft Visual Studio. 
-    ReSharper works with Visual Studio 2005 SP1, 2008 SP1, 2010 or 2012  or later. It is available for download as a single package that includes all three editions. Depending on the license key used, the Full, C# or VB.NET Edition will be activated automatically.
-    
-    During evaluation, Full Edition is activated by default but you can switch to another edition in the License Information dialog box (ReSharper | Help | License Information.)</description>
+ReSharper makes Microsoft Visual Studio a much better IDE.
+.NET developers worldwide wonder how they've ever lived without ReSharper's code inspections, refactorings and navigation.
+    ReSharper works with Visual Studio 2010 SP1, 2012 Update 3, 2013 Update 4, 2015 Preview.
+    </description>
     <summary>ReSharper - The Most Intelligent Extension for Visual Studio</summary>
-    <releaseNotes>FREE UPGRADE! Expanded TypeScript support, Quick Documentation fixes and other enhancements.</releaseNotes>
+    <releaseNotes>ReSharper 9 supports Visual Studio 2015 Preview, C#6.0 and regular expressions; brings more bulk quick-fixes; vastly improves support for JavaScript &amp; TypeScript; presents a new file layout editor and navigation actions. It is also based on a new platform, reducing memory consumption when ReSharper is installed in Visual Studio along with dotCover, dotTrace, and/or dotMemory.</releaseNotes>
     <copyright>JetBrains</copyright>
-    <tags>resharper jetbrains developer productivity tool vsix admin</tags>
+    <tags>resharper jetbrains developer productivity tool visualstudio c# admin</tags>
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />
+    <file src="chocolateyUninstall.ps1" target="tools" />
+    <file src="ReSharperAndToolsPacked01.exe.ignore" />
   </files>
 </package>
