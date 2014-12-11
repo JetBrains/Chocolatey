@@ -14,10 +14,12 @@
     <releaseNotes>Recent dotMemory releases deliver a more rigorous, clear, productive, and beautiful memory profiling experience, thanks to formatted copy of analysis results, explicit GC roots data, restyled UI icons, on-the-fly allocations control, and new automatic inspections.</releaseNotes>
     <copyright>JetBrains</copyright>
     <tags>dotMemory jetbrains admin profile</tags>
+    <dependencies>
+      <dependency id="ReSharperPlatform" version="[1.0]" />
+    </dependencies>
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />
     <file src="chocolateyUninstall.ps1" target="tools" />
-    <file src="ReSharperAndToolsPacked01.exe.ignore" />
   </files>
 </package>

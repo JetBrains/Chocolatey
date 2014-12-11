@@ -14,10 +14,12 @@
     <releaseNotes>The latest dotCover delivers remote code coverage to help you conserve resources on your local machine; a restyled coverage configuration dialog; a new coverage controller; and support for ReSharper 9 and Visual Studio 2015 Preview.</releaseNotes>
     <copyright>JetBrains</copyright>
     <tags>dotCover codecoverage jetbrains admin</tags>
+    <dependencies>
+      <dependency id="ReSharperPlatform" version="[1.0]" />
+    </dependencies>
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />
     <file src="chocolateyUninstall.ps1" target="tools" />
-    <file src="ReSharperAndToolsPacked01.exe.ignore" />
   </files>
 </package>

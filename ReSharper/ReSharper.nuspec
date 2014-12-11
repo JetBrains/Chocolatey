@@ -19,10 +19,12 @@ ReSharper makes Microsoft Visual Studio a much better IDE.
     <releaseNotes>ReSharper 9 supports Visual Studio 2015 Preview, C#6.0 and regular expressions; brings more bulk quick-fixes; vastly improves support for JavaScript &amp; TypeScript; presents a new file layout editor and navigation actions. It is also based on a new platform, reducing memory consumption when ReSharper is installed in Visual Studio along with dotCover, dotTrace, and/or dotMemory.</releaseNotes>
     <copyright>JetBrains</copyright>
     <tags>resharper jetbrains developer productivity tool visualstudio c# admin</tags>
+    <dependencies>
+      <dependency id="ReSharperPlatform" version="[1.0]" />
+    </dependencies>
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />
     <file src="chocolateyUninstall.ps1" target="tools" />
-    <file src="ReSharperAndToolsPacked01.exe.ignore" />
   </files>
 </package>

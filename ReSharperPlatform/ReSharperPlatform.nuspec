@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ReSharperPlatform</id>
+    <version>1.0</version>
+    <title>ReSharper Platform</title>
+    <authors>JetBrains</authors>
+    <owners>JetBrains</owners>
+    <licenseUrl>https://www.jetbrains.com/resharper/buy/index.jsp?product=ultimate</licenseUrl>
+    <projectUrl>https://www.jetbrains.com/dotnet/</projectUrl>
+    <iconUrl>https://github.com/ferventcoder/chocolateyautomaticpackages/raw/master/resharper/resharperlogo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ReSharper Ultimate is a license that combines all individual JetBrains .NET tools, as well as ReSharper C++. Each ReSharper Ultimate license allows a single developer to use ReSharper, ReSharper C++, dotCover, dotTrace and dotMemory.</description>
+    <copyright>JetBrains</copyright>
+    <tags>resharper jetbrains developer productivity tool visualstudio</tags>
+  </metadata>
+  <files>
+    <file src="chocolateyInstall.ps1" target="tools" />
+    <file src="ReSharperAndToolsPacked01.exe.ignore" />
+  </files>
+</package>

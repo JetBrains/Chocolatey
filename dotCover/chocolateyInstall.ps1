@@ -1,14 +1,14 @@
+$platformPackageName = 'ReSharperPlatform'
+$platformPackageVersion = '1.0'
 $packageName = 'dotCover'
-
-$url = 'http://download.jetbrains.com/resharper/ReSharperAndToolsPacked01.exe'
 
 try {
 
   $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-  $packagePath = $(Split-Path -parent $scriptPath)
-  $installPath = Join-Path $packagePath 'ReSharperAndToolsPacked01.exe'
+  $commonPath = $(Split-Path -parent $(Split-Path -parent $scriptPath))
 
-  Get-ChocolateyWebFile $packageName $installPath $url
+  $installPath = Join-Path  (Join-Path $commonPath $platformPackageName'.'$platformPackageVersion) 'ReSharperAndToolsPacked01.exe'
+
   Start-ChocolateyProcessAsAdmin '/SpecificProductNames=dotCover /Silent=True' $installPath
 
   Write-ChocolateySuccess "$packageName"
