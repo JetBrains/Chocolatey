@@ -2,20 +2,22 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotCover</id>
-    <version>2.7.0.662</version>
+    <version>3.0</version>
     <title>dotCover</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
-    <licenseUrl>http://www.jetbrains.com/dotcover/buy/index.jsp</licenseUrl>
+    <licenseUrl>http://www.jetbrains.com/dotcover/buy/</licenseUrl>
     <projectUrl>http://www.jetbrains.com/dotcover/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>JetBrains dotCover is a .NET unit test runner and code coverage tool that integrates with Visual Studio.</description>
     <summary>dotCover - .NET Code Coverage Tool</summary>
-    <releaseNotes>ReSharper 8.2 support, standalone runner and bug fixes</releaseNotes>
+    <releaseNotes>The latest dotCover delivers remote code coverage to help you conserve resources on your local machine; a restyled coverage configuration dialog; a new coverage controller; and support for ReSharper 9 and Visual Studio 2015 Preview.</releaseNotes>
     <copyright>JetBrains</copyright>
-    <tags>dotCover codecoverage jetbrains</tags>
+    <tags>dotCover codecoverage jetbrains admin</tags>
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />
+    <file src="chocolateyUninstall.ps1" target="tools" />
+    <file src="ReSharperAndToolsPacked01.exe.ignore" />
   </files>
 </package>
