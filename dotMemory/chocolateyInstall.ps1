@@ -9,7 +9,7 @@ try {
   $installPath = Join-Path $packagePath 'ReSharperAndToolsPacked01.exe'
 
   Get-ChocolateyWebFile $packageName $installPath $url
-  Start-ChocolateyProcessAsAdmin '/SpecificProductNames=$packageName /Silent=True' $installPath
+  Start-ChocolateyProcessAsAdmin '/SpecificProductNames=dotMemory /Silent=True' $installPath
 
   Write-ChocolateySuccess "$packageName"
 } catch {
