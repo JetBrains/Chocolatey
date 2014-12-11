@@ -2,22 +2,22 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotMemory</id>
-    <version>4.0.5.148</version>
+    <version>4.2</version>
     <title>dotMemory</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
-    <licenseUrl>http://www.jetbrains.com/dotMemory/buy/index.jsp</licenseUrl>
+    <licenseUrl>http://www.jetbrains.com/dotMemory/buy/</licenseUrl>
     <projectUrl>http://www.jetbrains.com/dotMemory/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>dotMemory is a .NET memory profiler that helps you optimize memory usage in your application, find memory leaks, and fight other types of memory issues.</description>
     <summary>Smart and Reliable .NET Memory Profiler</summary>
-    <releaseNotes>dotMemory 4.0.5 is available with number of hot fixes including crucial one on RVA address.
-We encourage you to install the latest version.
-</releaseNotes>
+    <releaseNotes>Recent dotMemory releases deliver a more rigorous, clear, productive, and beautiful memory profiling experience, thanks to formatted copy of analysis results, explicit GC roots data, restyled UI icons, on-the-fly allocations control, and new automatic inspections.</releaseNotes>
     <copyright>JetBrains</copyright>
-    <tags>dotMemory jetbrains</tags>
+    <tags>dotMemory jetbrains admin profile</tags>
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />
+    <file src="chocolateyUninstall.ps1" target="tools" />
+    <file src="ReSharperAndToolsPacked01.exe.ignore" />
   </files>
 </package>
