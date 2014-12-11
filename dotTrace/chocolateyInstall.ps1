@@ -1,1 +1,18 @@
-Install-ChocolateyPackage 'dotTrace' 'msi' '/q' 'http://download.jetbrains.com/dottrace/dotTraceSetup.5.5.4.160.msi?utm_medium=link&amp;utm_campaign=dottrace&amp;utm_source=autoupdate-dtP-5.5.4'
+$packageName = 'dotTrace'
+
+$url = 'http://download.jetbrains.com/resharper/ReSharperAndToolsPacked01.exe'
+
+try {
+
+  $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+  $packagePath = $(Split-Path -parent $scriptPath)
+  $installPath = Join-Path $packagePath 'ReSharperAndToolsPacked01.exe'
+
+  Get-ChocolateyWebFile $packageName $installPath $url
+  Start-ChocolateyProcessAsAdmin '/SpecificProductNames=$packageName /Silent=True' $installPath
+
+  Write-ChocolateySuccess "$packageName"
+} catch {
+  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
+  throw
+}

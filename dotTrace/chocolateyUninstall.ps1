@@ -1,13 +1,17 @@
-$package = 'dotTrace'
+$packageName = 'dotTrace'
+
+$url = 'http://download.jetbrains.com/resharper/ReSharperAndToolsPacked01.exe'
 
 try {
-  # HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\
-  $msiid = '{DBC020DC-C118-4E18-A5A7-40234850CCBA}'
-  Uninstall-ChocolateyPackage $package 'MSI' -SilentArgs "$msIid /qb" -validExitCodes @(0,1603)
 
-  # the following is all part of error handling
-  Write-ChocolateySuccess $package¦
+  $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+  $packagePath = $(Split-Path -parent $scriptPath)
+  $installPath = Join-Path $packagePath 'ReSharperAndToolsPacked01.exe'
+
+  Uninstall-ChocolateyPackage packageName 'exe' '/SpecificProductNames=$packageName /HostsToRemove=ReSharperPlatformVs10;ReSharperPlatformVs11;ReSharperPlatformVs12;ReSharperPlatformVs14 /Hive=* /ReSharper9PlusMsi=True' $installPath
+
+  Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure $package "$($_.Exception.Message)"
+  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
   throw
 }
