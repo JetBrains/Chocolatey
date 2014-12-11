@@ -9,7 +9,7 @@
     <projectUrl>http://www.jetbrains.com/profiler/</projectUrl>
     <iconUrl>http://www.jetbrains.com/profiler/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>10-day trial version of JetBrains dotTrace performance profiler</description>
+    <description>Powerful profiler that helps .NET developers investigate performance problems, spot and remove performance bottlenecks in applications based on .NET Framework 1.0-4.5, Windows Mobile, and Silverlight 4.</description>
     <summary>Powerful profiler that helps .NET developers investigate performance problems, spot and remove performance bottlenecks in applications based on .NET Framework 1.0-4.5, Windows Mobile, and Silverlight 4.</summary>
     <releaseNotes>The latest dotTrace brings a completely new profiling Timeline mode, redesigned dotTrace Home window, more flexible subsystems, a refined UI, performance viewer enhancements, integration with ReSharper 9, and more.
 All .NET tools from JetBrains including dotTrace are now delivered with a new common platform to conserve memory usage and optimize performance.</releaseNotes>
