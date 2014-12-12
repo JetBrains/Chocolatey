@@ -1,4 +1,4 @@
-$platformPackageName = 'ReSharperPlatform'
+$platformPackageName = 'resharper-platform'
 $platformPackageVersion = '1.0'
 $packageName = 'dotTrace'
 

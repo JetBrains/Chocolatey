@@ -16,7 +16,7 @@ All .NET tools from JetBrains including dotTrace are now delivered with a new co
     <copyright>JetBrains</copyright>
     <tags>dottrace jetbrains developer productivity tool visualstudio profiler admin</tags>
     <dependencies>
-      <dependency id="ReSharperPlatform" version="[1.0]" />
+      <dependency id="resharper-platform" version="[1.0]" />
     </dependencies>
   </metadata>
   <files>

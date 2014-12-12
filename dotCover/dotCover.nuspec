@@ -15,7 +15,7 @@
     <copyright>JetBrains</copyright>
     <tags>dotCover codecoverage jetbrains admin</tags>
     <dependencies>
-      <dependency id="ReSharperPlatform" version="[1.0]" />
+      <dependency id="resharper-platform" version="[1.0]" />
     </dependencies>
   </metadata>
   <files>

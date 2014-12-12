@@ -1,4 +1,4 @@
-$packageName = 'ReSharperPlatform'
+$packageName = 'resharper-platform'
 
 $url = 'http://download.jetbrains.com/resharper/ReSharperAndToolsPacked01.exe'
 
