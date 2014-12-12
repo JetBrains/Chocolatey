@@ -8,7 +8,7 @@ try {
 
   $installPath = Join-Path  (Join-Path $commonPath $platformPackageName'.'$platformPackageVersion) 'ReSharperAndToolsPacked01.exe'
 
-  Uninstall-ChocolateyPackage packageName 'exe' '/SpecificProductNames=ReSharper /HostsToRemove=dotMemory01;ReSharperPlatformVs10;ReSharperPlatformVs11;ReSharperPlatformVs12;ReSharperPlatformVs14 /Hive=* /ReSharper9PlusMsi=True' $installPath
+  Uninstall-ChocolateyPackage packageName 'exe' '/SpecificProductNames=dotMemory /HostsToRemove=dotMemory01;ReSharperPlatformVs10;ReSharperPlatformVs11;ReSharperPlatformVs12;ReSharperPlatformVs14 /Hive=* /ReSharper9PlusMsi=True' $installPath
 
   Write-ChocolateySuccess "$packageName"
 } catch {
