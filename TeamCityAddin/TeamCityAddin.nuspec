@@ -10,7 +10,6 @@
     <iconUrl>https://cdn.rawgit.com/JetBrains/Chocolatey/5e96684a65239e1e1b61187a15cccf1f6cd51e29/TeamCityAddin/logo.png</iconUrl>
     <description>
       The TeamCity add-in for Microsoft Visual Studio provides the following features:
-
       Remote Run for TFS, Subversion and Perforce (for remote run for Mercurial and Git see Branch Remote Run Trigger),
       Pre-Tested (Delayed) Commit for TFS, Subversion and Perforce,
       fetching JetBrains dotCover coverage analysis data from the TeamCity server (see more) to MS Visual Studio (requires dotCover of the supported version installed in Visual Studio),
