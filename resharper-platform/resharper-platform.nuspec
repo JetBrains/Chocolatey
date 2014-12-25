@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>resharper-platform</id>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <title>ReSharper Platform</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
@@ -16,6 +16,6 @@
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />
-    <file src="ReSharperAndToolsPacked01.exe.ignore" />
+    <file src="ReSharperAndToolsPacked01Update1.exe.ignore" />
   </files>
 </package>

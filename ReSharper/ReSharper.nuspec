@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>ReSharper</id>
-    <version>9.0</version>
+    <version>9.0.1</version>
     <title>ReSharper</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
     <licenseUrl>http://www.jetbrains.com/resharper/buy/</licenseUrl>
     <projectUrl>http://www.jetbrains.com/resharper/</projectUrl>
-    <iconUrl>https://github.com/ferventcoder/chocolateyautomaticpackages/raw/master/resharper/resharperlogo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/JetBrains/Chocolatey/5e96684a65239e1e1b61187a15cccf1f6cd51e29/ReSharper/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>ReSharper is a developer productivity tool for Microsoft Visual Studio. 
 ReSharper makes Microsoft Visual Studio a much better IDE.
@@ -20,7 +20,7 @@ ReSharper makes Microsoft Visual Studio a much better IDE.
     <copyright>JetBrains</copyright>
     <tags>resharper jetbrains developer productivity tool visualstudio c# admin</tags>
     <dependencies>
-      <dependency id="resharper-platform" version="[1.0]" />
+      <dependency id="resharper-platform" version="[1.0.1]" />
     </dependencies>
   </metadata>
   <files>
