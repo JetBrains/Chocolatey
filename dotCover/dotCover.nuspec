@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotCover</id>
-    <version>3.0</version>
+    <version>3.0.1</version>
     <title>dotCover</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
@@ -16,7 +16,7 @@
     <copyright>JetBrains</copyright>
     <tags>dotCover codecoverage jetbrains admin</tags>
     <dependencies>
-      <dependency id="resharper-platform" version="[1.0]" />
+      <dependency id="resharper-platform" version="[1.0.1]" />
     </dependencies>
   </metadata>
   <files>
