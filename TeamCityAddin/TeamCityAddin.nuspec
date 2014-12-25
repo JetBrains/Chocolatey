@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>TeamCityAddin</id>
-    <version>9.0</version>
+    <version>9.0.1</version>
     <title>TeamCity Add-in</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
@@ -25,7 +25,7 @@
     <copyright>JetBrains</copyright>
     <tags>Testing Build Coding Compilation Continuous Integration CI jetbrains admin</tags>
     <dependencies>
-      <dependency id="resharper-platform" version="[1.0]" />
+      <dependency id="resharper-platform" version="[1.0.1]" />
     </dependencies>
   </metadata>
   <files>
