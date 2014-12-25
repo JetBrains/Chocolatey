@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotMemory</id>
-    <version>4.2</version>
+    <version>4.2.1</version>
     <title>dotMemory</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
@@ -16,7 +16,7 @@
     <copyright>JetBrains</copyright>
     <tags>dotMemory jetbrains admin profile</tags>
     <dependencies>
-      <dependency id="resharper-platform" version="[1.0]" />
+      <dependency id="resharper-platform" version="[1.0.1]" />
     </dependencies>
   </metadata>
   <files>
