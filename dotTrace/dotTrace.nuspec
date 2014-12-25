@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dotTrace</id>
-    <version>6.0</version>
+    <version>6.0.1</version>
     <title>dotTrace Performance</title>
     <authors>JetBrains</authors>
     <owners>JetBrains</owners>
@@ -16,7 +16,7 @@ All .NET tools from JetBrains including dotTrace are now delivered with a new co
     <copyright>JetBrains</copyright>
     <tags>dottrace jetbrains developer productivity tool visualstudio profiler admin</tags>
     <dependencies>
-      <dependency id="resharper-platform" version="[1.0]" />
+      <dependency id="resharper-platform" version="[1.0.1]" />
     </dependencies>
   </metadata>
   <files>
