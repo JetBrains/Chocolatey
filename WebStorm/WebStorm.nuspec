@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>WebStorm</id>
-    <version>9.0.2</version>
+    <version>9.0.3</version>
     <title>WebStorm</title>
     <authors>JetBrains</authors>
-    <owners>JetBrains</owners>
+    <owners>JetBrains Justin James</owners>
     <iconUrl>https://raw.github.com/JetBrains/Chocolatey/master/WebStorm/WebStormLogo.png</iconUrl>
     <licenseUrl>http://www.jetbrains.com/webstorm/buy/buy.jsp</licenseUrl>
     <projectUrl>http://www.jetbrains.com/webstorm/</projectUrl>
@@ -20,5 +20,7 @@
   </metadata>
   <files>
     <file src="chocolateyInstall.ps1" target="tools" />
+    <file src="chocolateyUninstall.ps1" target="tools" />
+	<file src="common.ps1" target="tools" />
   </files>
 </package>
