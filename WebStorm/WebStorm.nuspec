@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>WebStorm</id>
-    <version>9.0.3</version>
+    <version>10.0.1</version>
     <title>WebStorm</title>
     <authors>JetBrains</authors>
     <owners>JetBrains Justin James</owners>
@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>WebStorm — The smartest JavaScript IDE. Create great web sites and applications in a great IDE. The best JavaScript IDE and HTML editor is at your fingertips.</description>
     <summary>WebStorm — The smartest JavaScript IDE</summary>
-    <releaseNotes>Release Notes: http://confluence.jetbrains.com/display/WI/WebStorm+139.773+Release+Notes</releaseNotes>
+    <releaseNotes>Release Notes: https://www.jetbrains.com/webstorm/whatsnew/</releaseNotes>
     <copyright />
     <tags>WebStorm JetBrains developer productivity tool IDE HTML CSS JavaScript</tags>
     <dependencies>
