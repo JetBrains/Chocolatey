@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>teamcity-server</id>
-    <version>9.0.3</version>
+    <version>9.0.4</version>
     <title>TeamCity Continuous Integration Server</title>
     <authors>JetBrains</authors>
     <owners>skyguy94</owners>
