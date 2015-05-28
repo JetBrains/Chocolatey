@@ -4,7 +4,7 @@ try
 	. (Join-Path $(Split-Path -parent $MyInvocation.MyCommand.Definition) 'Common.ps1')
 
 	$installerType = 'EXE' 
-	$url = "http://download.jetbrains.com/webstorm/WebStorm-10.0.2.exe" 
+	$url = "http://download.jetbrains.com/webstorm/WebStorm-10.0.3.exe" 
 	$url64 = $url 
 	$silentArgs = '/S' 
 	$validExitCodes = @(0) 
