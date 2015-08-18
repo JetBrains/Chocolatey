@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>WebStorm</id>
-    <version>10.0.3</version>
+    <version>10.0.4</version>
     <title>WebStorm</title>
     <authors>JetBrains</authors>
     <owners>JetBrains Justin James</owners>
