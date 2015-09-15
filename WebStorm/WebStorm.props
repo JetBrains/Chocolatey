@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Generate" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <id>WS8</id>
-    <buildNumber>135.1063</buildNumber>
-    <version>8.0.4</version>
-    <title>WebStorm 8</title>
+    <id>WS9</id>
+    <buildNumber>139.773</buildNumber>
+    <version>9.0.2</version>
+    <title>WebStorm 9</title>
     <projectUrl>http://www.jetbrains.com/webstorm/download/</projectUrl>
-    <releaseNotes>WebStorm 8.0.4 is available.Release Notes: http://confluence.jetbrains.com/display/WI/WebStorm+135.1063+Release+Notes</releaseNotes>
+    <releaseNotes>WebStorm 9.0.2 is available.Release Notes: http://confluence.jetbrains.com/display/WI/WebStorm+139.773+Release+Notes</releaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <Input Include="WebStorm.nuspec">

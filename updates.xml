@@ -561,16 +561,15 @@
       <patch from="135.937" size="1"/>
     </build>
   </channel>
-
-    <channel id="EAP" name="WebStorm 9 EAP" status="EAP"
-             url="http://confluence.jetbrains.net/display/WI/WebStorm+EAP"
-             feedback="http://devnet.jetbrains.net/community/wi/"
+	 <channel id="WS9" name="WebStorm 9" status="release"
+			url="http://www.jetbrains.com/webstorm/download/"
+			feedback="http://devnet.jetbrains.net/community/wi/"
              majorVersion="9">
-      <build number="138.2406" version="9.0">
-        <message>WebStorm 9 EAP is available.</message>
-        <button name="Download" url="http://confluence.jetbrains.net/display/WI/WebStorm+EAP" download="true"/>
-        <button name="Release Notes" url="http://confluence.jetbrains.com/display/WI/WebStorm+138.2406+Release+Notes"/>
-        <patch from="138.1988" size="8"/>
+      <build number="139.773" version="9.0.2">
+        <message>WebStorm 9.0.2 is available.</message>
+      <button name="Download" url="http://www.jetbrains.com/webstorm/download/index.html" download="true"/>
+        <button name="Release Notes" url="http://confluence.jetbrains.com/display/WI/WebStorm+139.773+Release+Notes"/>
+        <patch from="139.773" size="8"/>
       </build>
     </channel>
   </product>
