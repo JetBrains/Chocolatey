@@ -1,1 +1,1 @@
-﻿Install-ChocolateyZipPackage 'resharper-clt.portable' 'http://download.jetbrains.com/resharper/jb-commandline-8.2.1000.4527.zip'  "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+﻿Install-ChocolateyZipPackage 'resharper-clt.portable' 'https://download.jetbrains.com/resharper/JetBrains.ReSharper.CommandLineTools.10.0.20151218.134438.zip'  "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
